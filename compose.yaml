@@ -1,0 +1,6 @@
+services:
+  dspbridge-server:
+    image: dspbridge-server:2.1.4
+    ports:
+      - "56362:56362/tcp"
+      - "56303:56303/udp"
