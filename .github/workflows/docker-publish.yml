@@ -35,7 +35,7 @@ jobs:
 
       # 2. Log in (needed for both checking existence and pushing)
       - name: Log in to the Container registry
-        uses: docker/login-action@v4.0.0
+        uses: docker/login-action@v4.1.0
         with:
           registry: ${{ env.REGISTRY }}
           username: ${{ github.actor }}
